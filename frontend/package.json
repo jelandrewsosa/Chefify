@@ -1,8 +1,8 @@
 {
-  "name": "chefify",
-  "private": false,
-  "version": "0.0.0",
   "homepage": "https://jelandrewsosa.github.io",
+  "private": false,
+  "name": "frontend",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
