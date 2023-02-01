@@ -1,4 +1,5 @@
 # Chefify
+Name meaning Chef + ify = Chef I Feel You
 
 # Description
 A Recipe App Built with MongoDB, ExpressJS, React, NodeJS, Mongoose, Redux, MUI, Axios, BCrypt, jsonwebtoken, ERD, App WireFrame etc.
