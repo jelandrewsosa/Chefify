@@ -36,7 +36,7 @@ export default function ButtonAppBar() {
   const onLogout = () => {
     dispatch(logout());
     dispatch(reset());
-    navigate("/");
+    navigate("/login");
   };
 
   const onLogin = () => {

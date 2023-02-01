@@ -63,7 +63,7 @@ export default function SignUp() {
     }
 
     if (isSuccess || user) {
-      navigate("/");
+      navigate("/Chefify");
     }
 
     dispatch(reset());
@@ -208,7 +208,7 @@ export default function SignUp() {
 
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <NavLink variant="body2" to="/SignIn">
+                <NavLink variant="body2" to="/login">
                   {"Already have an account? Sign in"}
                 </NavLink>
               </Grid>
