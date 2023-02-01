@@ -62,6 +62,12 @@ cd backend
 - User could see his Info at the User Favorite Recipes 
 - The App is Mobile first approach, Responsive and works well with any devices such as Mobile, Tablets and Desktop
 
+# Possible Future Features
+- Full Stack Deployment
+- Search Modal
+- Share to social media
+- Upload as PDF
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
