@@ -90,7 +90,7 @@ export default function FavoriteRecipeCategoryDetailsCard({
             aria-describedby="alert-dialog-description"
           >
             <DialogTitle id="alert-dialog-title">
-              {"Remove Recipe?"}
+              {"Remove from Favorite Recipes?"}
             </DialogTitle>
             <DialogContent>
               <DialogContentText id="alert-dialog-description">
