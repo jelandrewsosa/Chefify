@@ -64,6 +64,7 @@ cd backend
 - The App is Mobile first approach, Responsive and works well with any devices such as Mobile, Tablets and Desktop
 - Servings Multiplier
 - Related Recipes
+- Modal Confirmation for Adding and Deleting Favorite Recipe
 
 # Possible Future Features
 - Full Stack Deployment
