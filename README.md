@@ -34,6 +34,9 @@ cd backend
 # Run MongodB Server
 - Connect To
 -- mongodb://127.0.0.1:27017/chefify
+-- create database named chefify
+-- create collection name 'favorites'
+-- create collection name 'users'
 
 # Open Visual Studio Code
 - cd frontend
