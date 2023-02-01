@@ -60,6 +60,7 @@ cd backend
 # Addition Features
 - Category for Recipes from User Favorite Recipes
 - User could see his Info at the User Favorite Recipes 
+- The App is Mobile first approach, Responsive and works well with any devices such as Mobile, Tablets and Desktop
 
 ## Contributing
 
