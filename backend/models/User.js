@@ -16,7 +16,7 @@ const userSchema = new Schema({
     type: String,
     minLength: 6,
     max: 20,
-    required: [true, "Please input a last password"],
+    required: [true, "Please input a password"],
   },
   dateCreated: { type: Date, immutable: true, default: Date.now },
   updatedAt: {

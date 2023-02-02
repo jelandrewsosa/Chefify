@@ -3,11 +3,12 @@ import addRecipeToFavorites from '../controllers/favorite/addRecipeToFavorites.j
 import deleteRecipeFromFavorites from '../controllers/favorite/deleteRecipeFromFavorites.js';
 import getAllUserFavoriteRecipes from '../controllers/favorite/getAllUserFavoriteRecipes.js'
 import checkFavoriteRecipeDuplicate from '../middlewares/validation/checkFavoriteRecipeDuplicate.js';
+import protect from '../middlewares/auth/authMiddleware.js';
 
 const router = new Router();
 
-router.post('/favorite', checkFavoriteRecipeDuplicate, addRecipeToFavorites)
-router.get('/favorite/:_id', getAllUserFavoriteRecipes)
-router.delete('/favorite/:_id', deleteRecipeFromFavorites)
+router.post('/favorite', protect, checkFavoriteRecipeDuplicate, addRecipeToFavorites)
+router.get('/favorite/:_id', protect, getAllUserFavoriteRecipes)
+router.delete('/favorite/:_id', protect, deleteRecipeFromFavorites)
 
 export default router;
